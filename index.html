@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lancio di due dadi</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container my-5">
+            <h1>🎲 Lancio di due dadi</h1>
+            Inserisci dei numeri nelle faccie del dado
+            <br><br>
+            <center>
+                <table>
+                    <tr><td id="invisible"></td><td><input class="n" id="n1"></td></tr>
+                    <tr><td><input id="n2" class="n"></td><td><input id="n3" class="n"></td><td><input id="n4" class="n"</td></tr>
+                    <tr><td id="invisible"></td><td><input id="n5" class="n"></td></tr>
+                    <tr><td id="invisible"></td><td><input id="n6" class="n"></td></tr>
+                </table>
+                <br>
+                <div id="alert"><p id="alert-content"></p></div>
+                <br>
+                <button class="btn" id="createDice"><b>Crea dado</b></button>
+            </center>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
