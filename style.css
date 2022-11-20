@@ -21,3 +21,14 @@ td {
 #alert {
     padding-top: 25px;
 }
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    padding: 3px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+}
