@@ -11,16 +11,28 @@
             Inserisci dei numeri nelle faccie del dado
             <br><br>
             <center>
-                <table>
-                    <tr><td id="invisible"></td><td><input class="n" id="n1"></td></tr>
-                    <tr><td><input id="n2" class="n"></td><td><input id="n3" class="n"></td><td><input id="n4" class="n"</td></tr>
-                    <tr><td id="invisible"></td><td><input id="n5" class="n"></td></tr>
-                    <tr><td id="invisible"></td><td><input id="n6" class="n"></td></tr>
-                </table>
+                <div class="row">
+                    <div class="col">
+                    <table id="firstDado">
+                        <tr><td id="invisible"></td><td><input type="number" class="n" id="n1_1"></td></tr>
+                        <tr><td><input type="number" id="n1_2" class="n"></td><td><input type="number" id="n1_3" class="n"></td><td><input type="number" id="n1_4" class="n"</td></tr>
+                        <tr><td id="invisible"></td><td><input type="number" id="n1_5" class="n"></td></tr>
+                        <tr><td id="invisible"></td><td><input type="number" id="n1_6" class="n"></td></tr>
+                    </table>
+                    </div>
+                    <div class="col">
+                        <table id="secondDado">
+                            <tr><td id="invisible"></td><td><input type="number" class="n" id="n2_1"></td></tr>
+                            <tr><td><input type="number" id="n2_2" class="n"></td><td><input type="number" id="n2_3" class="n"></td><td><input type="number" id="n2_4" class="n"</td></tr>
+                            <tr><td id="invisible"></td><td><input type="number" id="n2_5" class="n"></td></tr>
+                            <tr><td id="invisible"></td><td><input type="number" id="n2_6" class="n"></td></tr>
+                        </table>
+                    </div>
+                </div>
                 <br>
-                <div id="alert"><p id="alert-content"></p></div>
+                <div id='alert' class=""><p id="alert-content"></p></div>
                 <br>
-                <button class="btn" id="createDice"><b>Crea dado</b></button>
+                <button class="btn" id="createDadi"><b>Crea dadi</b></button>
             </center>
         </div>
 
