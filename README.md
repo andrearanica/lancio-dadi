@@ -1,4 +1,5 @@
 # 🎲 Lancio di due dadi
+[Live demo](https://lancia-dadi.netlify.app) <br>
 Il programma si occupa di simulare il lancio di due dadi creati dagli utenti.
 
 ## 🔎 Funzionamento
