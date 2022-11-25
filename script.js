@@ -48,6 +48,7 @@ document.getElementById('createDadi').onclick = () => {
             document.getElementById('alert').className = 'alert alert-success'
             document.getElementById('alert-content').innerHTML = '🚀 Creato'
             document.getElementById('start').className = 'btn-success'
+            document.getElementById('start100').className = 'btn-success'
             blockNums()
         } else {
             document.getElementById('alert').className = 'alert alert-danger'
@@ -92,6 +93,19 @@ function showResult (result) {
 document.getElementById('start').onclick = () => {
     if (document.getElementById('start').className == 'btn-success') {
         for (i = 0; i < 1000; i++) {
+            const n1 = nums1[Math.floor(Math.random()*6)]
+            const n2 = nums2[Math.floor(Math.random()*6)]
+    
+            checkWin(parseInt(n1), parseInt(n2))
+        }
+        
+        showResult(result)
+    }
+}
+
+document.getElementById('start100').onclick = () => {
+    if (document.getElementById('start').className == 'btn-success') {
+        for (i = 0; i < 100; i++) {
             const n1 = nums1[Math.floor(Math.random()*6)]
             const n2 = nums2[Math.floor(Math.random()*6)]
     
